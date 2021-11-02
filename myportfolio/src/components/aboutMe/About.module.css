@@ -1,0 +1,30 @@
+.container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+    height: 100vh;
+    padding:  0 3%;
+    width: 100%;
+}
+.container h1{
+  margin-bottom: 3em;
+}
+
+.container p {
+ 
+    width: 70%;
+    font-size: 1.05em;
+   
+}
+
+.container img:hover {
+    transform: scale(1.6);
+}
+
+@media only screen and (max-width: 700px){
+    .container {
+     height: 160vh;
+    }
+}
