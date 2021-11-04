@@ -2,7 +2,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-
+    
     margin: 0 auto;
     height: 100vh;
     padding:  0 3%;
@@ -16,13 +16,21 @@
  
     width: 70%;
     font-size: 1.05em;
-   
+   margin-bottom: 7%;
 }
 
 .container img:hover {
     transform: scale(1.6);
 }
-
+.languajes{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+.languajes h2{
+    margin-bottom:10%;
+}
 @media only screen and (max-width: 700px){
     .container {
      height: 160vh;

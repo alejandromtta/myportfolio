@@ -9,8 +9,8 @@ export default function principal(){
                 Alejandro Motta
             </h1>
             <h1 className="accessibility-animation">
-                <span className="end-letters">Full Stack Js Dev </span><span className="middle-letters"> , Do you have a
-                    problem? </span><span className="alternate-middle-letters">, I have a solution.</span>
+                <span className="end-letters">Full Stack Js Dev </span><span className="middle-letters"> , Do you see 
+                    problems? </span><span className="alternate-middle-letters">, I see  solutions.</span>
             </h1>
             <div>
             <a href="https://github.com/alejandromtta" target="_blank"  rel="noreferrer" ><img src={github} alt="github" className="logo"/></a>
