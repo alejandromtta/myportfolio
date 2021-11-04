@@ -1,5 +1,11 @@
 .card {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-   margin-top: 2%;
+   margin-top: 15%;
   }
   
+  .card form{
+      width: 100%;
+  }

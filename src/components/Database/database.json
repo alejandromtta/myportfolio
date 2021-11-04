@@ -3,12 +3,13 @@
     "id": 1,
     "name": "Countries",
     "charge": "Full Stack Dev",
-    "description_front":"",
-    "description_back":"",
+    "description_front":"The style is make with css3, the design is make with Figma, this SPA, have: \n-LandingPage\n-HomePage\n-ControledForm\n-DetailCard\n-Filters\n-SearchBar\n-Paginate\nits build with react hooks and redux, but the design is not responsive.",
+    "description_back":"The database is with PostgreSQL, the relation is has many to has many, have 3 tables, countries table, touristic activities table and the relation table,the API REST is with NodeJs have many routes, to filter information, get information and post information.",
     "main_img":"https://media-exp1.licdn.com/dms/image/C4E2DAQG4BD4Im6AkQA/profile-treasury-image-shrink_800_800/0/1636053639247?e=1636142400&v=beta&t=1c-Llqsl5eAFntUn1mQh8NPem9aNLdkr54NutchOUyk",
     "imgs_front": [],
     "imgs_back": [],
-    "videos": []
+    "videos": [],
+    "github": ""
  },
  {
     "id": 2,
@@ -19,7 +20,8 @@
     "main_img":"https://media-exp1.licdn.com/dms/image/C4E2DAQHUppXNq_hwGA/profile-treasury-image-shrink_800_800/0/1636053753404?e=1636142400&v=beta&t=CLsb3O8bPifnDkpWf6ThEJcbyklSHzybji01ObHAzhQ",
     "imgs_front": [],
     "imgs_back": [],
-    "videos": []
+    "videos": [],
+    "github": ""
  },
  {
     "id": 3,
@@ -30,7 +32,8 @@
     "main_img":"https://media-exp1.licdn.com/dms/image/C4E2DAQH593o0_1pVEA/profile-treasury-image-shrink_800_800/0/1635771658378?e=1636138800&v=beta&t=iRzO5FE2x0UU8w3q-11qluZgkZs76jmvr7khNvjJvkc",
     "imgs_front": [],
     "imgs_back": [],
-    "videos": []
+    "videos": [],
+    "github": ""
  },
  {
    "id": 4,
@@ -38,9 +41,22 @@
    "charge": "Front-end Dev",
    "description_front": "This Design is make by the client (he was not a real client, he was a friend), i only use Html5 and Css3 to make it real.",
    "description_back":null,
-   "main_img":"https://i.ibb.co/WxcRLRw/Fallita.png",
-   "imgs_front": [],
+   "main_img":"https://i.ibb.co/R7t5Xgx/Fallita1.png",
+   "imgs_front": ["https://i.ibb.co/LkCs3sW/Fallita.png"],
    "imgs_back": [],
-   "videos": []
+   "videos": [],
+   "github": ""
+},
+{
+   "id": 4,
+   "name": "My PortFolio",
+   "charge": "Front-end Dev",
+   "description_front": "This Design is make by the client (he was not a real client, he was a friend), i only use Html5 and Css3 to make it real.",
+   "description_back":null,
+   "main_img":"https://i.ibb.co/Y2yk7VF/My-Portfolio.png",
+   "imgs_front": ["https://i.ibb.co/LkCs3sW/Fallita.png"],
+   "imgs_back": [],
+   "videos": [],
+   "github": ""
 }
 ]

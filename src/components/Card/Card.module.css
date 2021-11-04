@@ -37,5 +37,12 @@
 @media (max-width: 768px) {
     .containerCard{
         margin-bottom: 16%;
+        width: 100%;
+        padding:2%;
+    }
+
+    .img{
+        width:60vw;
+        padding:8%;
     }
 }

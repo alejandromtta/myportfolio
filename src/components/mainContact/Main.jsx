@@ -86,7 +86,8 @@ export default class Main extends React.Component {
         
       return (
   <>
-    <div className={style.card}>
+    <div id="form" className={style.card}>
+      <h2>Contact Me</h2>
   <div  className="card shadow-sm border-0 px-3 rounded-2 mb-3 py-4 mx-auto mt-5 bg-light">
     <div className="card-header bg-transparent border-0 text-center text-uppercase"><h3>{this.props.title}</h3></div>
     <div className="card-body">

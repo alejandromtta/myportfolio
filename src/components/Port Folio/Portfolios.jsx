@@ -10,7 +10,7 @@ export default function PortFolios () {
               {data? 
               data.map((e, i) => {
                   if(e){
-                    return <div clasName={style.iCard} key={i}> <Card img={e.main_img}
+                    return <div className={style.iCard} key={i}> <Card img={e.main_img}
                          name={e.name}
                          index ={i}/>
                          </div>
