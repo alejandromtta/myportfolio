@@ -11,7 +11,7 @@ export default function  About() {
        other people, so i have a critical point of view about team work, without a good comunication a project cant
        be successfully or cant be start, the needs of the client its other of the important things, so i not only work the client needs,
        i make sugerences if i saw necesary, i dont want be worker for work, i want  be a worker to help.
- i made me Dev to help people, to know more about the world arround our, my english is no the best, but, could i make that you feel my vision about software dev?
+ i made me Dev to help people, to know more about the world arround us, my english is no the best, but, could i make that you feel my vision about software dev?
       </p>
       <div className={style.languajes}>
       <h2 >Languages and Tools:</h2>

@@ -19,7 +19,26 @@
     width: 80%;
 }
 
-.container img{
-    width: 70%;
-    height: 80%;
+.subContainer img{
+    width: 30%;
+    height: 40%;
+    border-radius: 2%;
+}
+
+.subContainer {
+    display: flex;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.thirdContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-left: 10%;
 }
