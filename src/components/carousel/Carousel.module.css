@@ -1,0 +1,12 @@
+#item{
+    background-color: #eee;
+    height: 60vh;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    #item{
+        height: 40vh;
+        width:1%;
+    }
+}

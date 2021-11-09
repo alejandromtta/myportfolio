@@ -7,6 +7,7 @@ import About from './components/aboutMe/About';
 import PortFolios from './components/Port Folio/Portfolios';
 import Detail from './components/detail/Detail';
 import Cv from './components/cv/Cv'
+import footer from "./components/img/footer.svg"
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
           <Route  path="/" element={<><Principal/><About/><PortFolios/><Cv/><Main/></>} />
           <Route path="/:id" element={<Detail/>}/>
         </Switch>
+        <img src={footer} alt="footer" className="footer"/>
       </BrowserRouter>
     </div>
   );

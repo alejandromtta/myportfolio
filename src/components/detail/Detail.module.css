@@ -3,6 +3,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: 1em;
+    margin-top: 5%;
 }
 
 .container h3{
@@ -23,6 +25,8 @@
     width: 30%;
     height: 40%;
     border-radius: 2%;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 
 .subContainer {
@@ -35,7 +39,7 @@
 }
 
 .thirdContainer{
-    text-align: center;
+    text-align: left;
     display: flex;
     flex-direction: column;
  width: 100%;
@@ -47,4 +51,9 @@
  
     font-size: 1em;
     
+}
+
+.thirdContainer p{
+    margin-bottom: 5%;
+    margin-top: 5%;
 }

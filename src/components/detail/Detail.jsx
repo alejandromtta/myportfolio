@@ -8,15 +8,15 @@ export default function Detail (){
 
     if (dat){
      return (<div className={style.container}>
-         <h3>Charge: {dat.charge}</h3>
+         <h3>{dat.charge}</h3>
          <div className={style.subContainer}>
              
          <img src={dat.main_img} alt="data.name"/>
          
         <h3>Project Name: {dat.name}</h3>
         <div className={style.thirdContainer}>
-        {dat.description_front?<> <p> <strong>What i do in the front?:<br/></strong>{dat.description_front}</p><Carrousel/></>:null}
-        {dat.description_back?<><p><strong>What i do in the Back?:<br/></strong>{dat.description_back}</p><Carrousel/></>:null}
+        {dat.description_front?<> <p> <strong>What i do in the front?:<br/></strong>{dat.description_front}</p><Carrousel data={dat.imgs_front}/></>:null}
+        {dat.description_back?<><p><strong>What i do in the Back?:<br/></strong>{dat.description_back}</p><Carrousel data={dat.imgs_back} /></>:null}
         </div>
         </div>
     </div>)
